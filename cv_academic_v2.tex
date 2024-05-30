@@ -1,0 +1,220 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[11pt]{article}
+
+% Packages
+\usepackage[margin=1in]{geometry}               
+\geometry{a4paper}          
+\usepackage{eulervm}         		
+\usepackage{fontspec}
+\usepackage{parskip}  
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage[dvipsnames, svgnames]{xcolor}
+\usepackage{academicons}
+\usepackage{fontawesome}
+\usepackage[colorlinks=true, urlcolor=DarkBlue]{hyperref}
+\usepackage{url}
+\usepackage{hanging}
+\usepackage{fancyhdr}
+\usepackage{csquotes}
+
+% Formatting
+%\setlength{\parskip}{\baselineskip}
+
+% Fonts
+\defaultfontfeatures{Mapping=tex-text,Ligatures=TeX}
+\setromanfont[Mapping={tex-text}, 
+ 	Numbers={OldStyle},
+ 	Ligatures={Common}]{Minion Pro}
+\setmonofont[Scale=0.78]{Pragmata Pro Mono}
+\setsansfont{Myriad Pro Semibold}
+\newfontfamily\sansfont{Myriad Pro Semibold}
+
+% Colors
+\definecolor{grayrule}{HTML}{c6c6c6} % Gray rule
+
+% Header and footer
+%\setlength{\headheight}{15.2pt}
+%\pagestyle{fancy}
+%\fancyhf{}
+%\lhead{Amos Pagin}
+%\chead{Curriculum vitae}
+%\rhead{Revised: \today}
+\cfoot{\thepage}
+
+% Commands
+\newcommand{\RR}{\textcolor{grayrule}{\rule[3mm]{\textwidth}{0.5pt}}} 
+\newcommand{\oneline}{\\[1\baselineskip]}
+\newcommand{\twoline}{\\[2\baselineskip]}
+
+% Document
+\begin{document}
+\thispagestyle{empty}
+\begin{center}
+\textsc{} \\[\baselineskip]
+\addfontfeature{LetterSpace=3.0} % Adds tracking for headers
+{\fontsize{18}{48} \selectfont \textsc{curriculum vitae}} \\[1.25\baselineskip]
+{\fontsize{18}{48} \selectfont \textsc{amos pagin}} \vspace{1.35\baselineskip}
+\end{center}
+
+\normalsize 
+\begin{minipage}[t]{0.7\linewidth}
+Department of Psychology,  \\ 
+University of Gothenburg, \\
+  PO Box 500,  \\
+ 405 30 Gothenburg, Sweden\\
+  \vspace{0.75\baselineskip}
+ \end{minipage}
+ \begin{minipage}[t]{0.5\linewidth}
+ %Strålgatan 19\\
+ %112 63 Stockholm, Sweden \\
+ E-mail: \href{mailto: amos.pagin@psy.gu.se}{amos.pagin@psy.gu.se}\\
+ Website: \href{https://amospagin.github.io}{amospagin.github.io} \\
+ %Twitter: \href{https://twitter.com/amospagin?lang=en}{\texttt{@amospagin}} 
+ 
+ Revised: \today
+ \end{minipage}
+
+% % Personal details
+\textsc{\Large personal details}  \\
+\vspace{-.3cm}\RR 
+
+\begin{minipage}[t]{0.15\linewidth}
+Full name: \\ 
+Date of birth: \\ 
+Place of birth: \\
+\end{minipage}
+\begin{minipage}[t]{0.9\linewidth}
+Amos Michael Joseph Pagin\\
+October 8, 1987 \\
+Stockholm, Sweden \\
+
+\end{minipage}
+
+
+% Education
+\textsc{\Large education}  \\
+\vspace{-.3cm}\RR 
+
+\begin{minipage}[t]{0.075\linewidth}
+2025 \\ \\
+2020 \\ 
+2018
+\end{minipage} 
+\begin{minipage}[t]{0.92\linewidth}P.hD. Psychology, University of Gothenburg (expected).\\ 
+{\footnotesize Dissertation advisors: Prof. Martin Lövdén, Dr. Gaia Olivo.} \\
+M.Sc. Social science (psychology track), Uppsala University. \\
+%{\footnotesize  Main field of study: Psychology.} \\
+\normalsize B.Sc. Psychology, Stockholm University. \\
+%{\footnotesize Minors in theoretical philosophy and linguistics.}\\
+\end{minipage}
+
+% Publications
+\textsc{\Large publications} \\
+\vspace{-.3cm}\RR 
+
+\textbf{Journal articles}
+
+\begin{hangparas}{0.4in}{1}
+\vspace{-0.6em}
+[2] Lövdén, M., Pagin, A., Bartrés-Faz, D., Boraxbekk, C-J., Brandmaier, A. M., Demnitz, N., Drevon, C.A., Ebmeier, K. P., Fjell, A. M., Ghisletta, P., Gorbach, T., Lindenberger, U., Plachti, A., Walhovd, K. B., \& Nyberg, L. (2023). No moderating influence of education on the association between changes in hippocampus volume and memory performance in aging. \emph{Aging Brain, 4}. %\href{https://doi.org/10.0000/3mp7y-537}{https://doi.org/10.0000/3mp7y-537}
+
+[1] Pagin, A. (2019). Exploring the conjunction fallacy in probability judgment: Conversational implicature or nested sets?. \emph{Journal of European Psychology Students, 10}(2). \\
+\end{hangparas}
+
+% Grants and fellowships
+\textsc{\Large grants and fellowships}\\
+\vspace{-.3cm}\RR 
+
+\textbf{Grants obtained in competition (as principal applicant)}
+
+\vspace{-0.6em}
+\begin{minipage}[t]{0.075\linewidth}
+2022 
+\end{minipage} 
+\begin{minipage}[t]{0.92\linewidth}Grant from the Nordic Mensa Fund. 5 000 EUR. Awarded for the research project \enquote{Learning and problem solving}. \vspace{\baselineskip}
+\end{minipage}
+
+
+ 
+%% Departmental talks
+%\textsc{\Large departmental talks}\\
+%\vspace{-.3cm}\RR 
+%
+%\begin{minipage}[t]{0.075\linewidth}
+%2021 
+%\end{minipage} 
+%\begin{minipage}[t]{0.92\linewidth}Learning and transfer in relational reasoning: Grounding the Flynn effect in socioculturally acquired cognitive skill. Lifespan Development Lab, Department of Psychology, University of Gothenburg. April 26th. \vspace{\baselineskip}
+%\end{minipage}
+
+% Teaching experience
+\textsc{\Large teaching experience}  \\
+\vspace{-.3cm}\RR 
+
+%\textbf{At the University of Gothenburg} \\
+\textbf{Psychology: Intermediate course (Module: Method)} \\
+Department of Psychology, University of Gothenburg. \\
+Undergraduate course (Swedish). \\Advised and graded quantitative student projects. \\Terms taught: Spring 2023, Autumn 2023, Spring 2024.  \oneline
+\textbf{Cognitive psychology} \\
+Department of Psychology, University of Gothenburg. \\
+Master's level course (English). \\Lectures and seminars on working memory, long-term memory, and the psychology of language. \\
+Terms taught: Spring 2021, Spring 2022, Spring 2023, Spring 2024.  \oneline
+\textbf{Psychology II (Module: Perception and cognition)} \\
+Department of Neuroscience and Physiology, University of Gothenburg. \\
+Undergraduate course (Swedish). \\ Lectures on working memory and long-term memory.\\
+Terms taught: Fall 2021, Fall 2022. \oneline
+%\textbf{At Stockholm University} \\
+\textbf{Neuroscience, cognition, and learning II} \\
+Department of Psychology, Stockholm University.\\
+Undergraduate course (Swedish). \\Lecture and seminar on introductory statistics and SPSS.\\
+Terms taught: Spring 2017.\oneline
+\textbf{Psychology III (Module: Methods and statistics)} \\
+Department of Psychology, Stockholm University. \\
+Undergraduate course (Swedish). \\ Lectures and seminars on statistics (descriptives, t-tests, ANOVA, linear regression, power). \\
+Terms taught: Spring 2017, Fall 2017, Spring 2018. \\
+
+
+% Academic supervision
+\textsc{\Large academic supervision}  \\
+\vspace{-.3cm}\RR 
+
+\begin{minipage}[t]{0.075\linewidth}
+2018 
+\end{minipage} 
+\begin{minipage}[t]{0.92\linewidth}
+Co-advisor, Bachelor's thesis in Psychology, Clara Rosenthal. Department of Psychology, Stockholm University. \vspace{\baselineskip}
+\end{minipage}
+
+% University service
+\textsc{\Large departmental/university service} \\
+\vspace{-.3cm}\RR 
+\textbf{}
+
+
+\begin{hangparas}{0.4in}{1}
+Representative to the Faculty of Social Sciences’ Doctoral Student Council. Department of Psychology, University of Gothenburg. Fall 2022.
+
+Organizer of the Lifespan Development Lab weekly seminar series. Department of Psychology, University of Gothenburg. Fall 2021.
+
+%\vspace{\baselineskip}
+\end{hangparas}
+
+ \vspace{\baselineskip}
+
+
+
+% Skills
+%\textsc{\Large computer skills}\\
+%\vspace{-.3cm}\RR 
+
+%R, LaTeX, SPSS \\
+
+% Languages
+\textsc{\Large languages}\\
+\vspace{-.3cm}\RR 
+
+Swedish (native), English (fluent)
+
+\end{document}  
