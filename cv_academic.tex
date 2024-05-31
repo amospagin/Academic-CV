@@ -1,10 +1,10 @@
 %!TEX TS-program = xelatex
 %!TEX encoding = UTF-8 Unicode
 
-\documentclass[11pt]{article}
+\documentclass[10pt]{article}
 
 % Packages
-\usepackage[margin=1in]{geometry}               
+\usepackage[margin=1.1in]{geometry}               
 \geometry{a4paper}          
 \usepackage{eulervm}         		
 \usepackage{fontspec}
@@ -36,12 +36,12 @@
 \definecolor{grayrule}{HTML}{c6c6c6} % Gray rule
 
 % Header and footer
-%\setlength{\headheight}{15.2pt}
-%\pagestyle{fancy}
-%\fancyhf{}
-%\lhead{Amos Pagin}
+\setlength{\headheight}{15.2pt}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Amos Pagin}
 %\chead{Curriculum vitae}
-%\rhead{Revised: \today}
+\rhead{Revised: \today}
 \cfoot{\thepage}
 
 % Commands
@@ -54,48 +54,55 @@
 \thispagestyle{empty}
 \begin{center}
 \textsc{} \\[\baselineskip]
-\addfontfeature{LetterSpace=3.0} % Adds tracking for headers
-{\fontsize{18}{48} \selectfont \textsc{curriculum vitae}} \\[1.25\baselineskip]
-{\fontsize{18}{48} \selectfont \textsc{amos pagin}} \vspace{1.35\baselineskip}
+%\addfontfeature{LetterSpace=1.5} % Adds tracking for headers
+%{\fontsize{18}{48} \selectfont \textsc{curriculum vitae}} \\[1.25\baselineskip]
+{\fontsize{18}{48} \selectfont Amos Pagin} \vspace{1.35\baselineskip}
+%{\fontsize{22}{48} \selectfont \textsc{amos pagin}} \vspace{1.35\baselineskip}
 \end{center}
 
-\normalsize 
+
 \begin{minipage}[t]{0.7\linewidth}
 Department of Psychology,  \\ 
 University of Gothenburg, \\
   PO Box 500,  \\
- 405 30 Gothenburg, Sweden\\
-  \vspace{0.75\baselineskip}
+ 405 30 Gothenburg, Sweden\\ \\
+  %\vspace{0.75\baselineskip}
  \end{minipage}
  \begin{minipage}[t]{0.5\linewidth}
  %Strålgatan 19\\
  %112 63 Stockholm, Sweden \\
  E-mail: \href{mailto: amos.pagin@psy.gu.se}{amos.pagin@psy.gu.se}\\
- Website: \href{https://amospagin.github.io}{amospagin.github.io} \\
+ Web: \href{https://www.amospagin.com}{www.amospagin.com} \\ \\
  %Twitter: \href{https://twitter.com/amospagin?lang=en}{\texttt{@amospagin}} 
- 
- Revised: \today
+Revised: \today
  \end{minipage}
 
+%% % Personal details
+%\textsc{\Large areas of interest and specialization}  \\
+%\vspace{-.3cm}\RR 
+%
+%Cognitive aging, reserve and resilience, neuroplasticity, neurodegenerative diseases, psychometrics. \vspace{\baselineskip}
+
 % % Personal details
-\textsc{\Large personal details}  \\
-\vspace{-.3cm}\RR 
-
-\begin{minipage}[t]{0.15\linewidth}
-Full name: \\ 
-Date of birth: \\ 
-Place of birth: \\
-\end{minipage}
-\begin{minipage}[t]{0.9\linewidth}
-Amos Michael Joseph Pagin\\
-October 8, 1987 \\
-Stockholm, Sweden \\
-
-\end{minipage}
+%\textsc{\Large personal details}  \\
+%\vspace{-.3cm}\RR 
+%
+%\begin{minipage}[t]{0.15\linewidth}
+%Full name: \\ 
+%Date of birth: \\ 
+%Place of birth: \\
+%\end{minipage}
+%\begin{minipage}[t]{0.9\linewidth}
+%Amos Michael Joseph Pagin\\
+%October 8, 1987 \\
+%Stockholm, Sweden \\
+%
+%\end{minipage}
 
 
 % Education
-\textsc{\Large education}  \\
+%\textsc{\Large education}  \\
+{\large Education} \\
 \vspace{-.3cm}\RR 
 
 \begin{minipage}[t]{0.075\linewidth}
@@ -112,20 +119,22 @@ M.Sc. Social science (psychology track), Uppsala University. \\
 \end{minipage}
 
 % Publications
-\textsc{\Large publications} \\
+%\textsc{\Large publications} \\
+{\large Publications} \\
 \vspace{-.3cm}\RR 
 
 \textbf{Journal articles}
 
 \begin{hangparas}{0.4in}{1}
 \vspace{-0.6em}
-[2] Lövdén, M., Pagin, A., Bartrés-Faz, D., Boraxbekk, C-J., Brandmaier, A. M., Demnitz, N., Drevon, C.A., Ebmeier, K. P., Fjell, A. M., Ghisletta, P., Gorbach, T., Lindenberger, U., Plachti, A., Walhovd, K. B., \& Nyberg, L. (2023). No moderating influence of education on the association between changes in hippocampus volume and memory performance in aging. \emph{Aging Brain, 4}. %\href{https://doi.org/10.0000/3mp7y-537}{https://doi.org/10.0000/3mp7y-537}
+[2] Lövdén, M., \textbf{Pagin, A.}, Bartrés-Faz, D., Boraxbekk, C-J., Brandmaier, A. M., Demnitz, N., Drevon, C.A., Ebmeier, K. P., Fjell, A. M., Ghisletta, P., Gorbach, T., Lindenberger, U., Plachti, A., Walhovd, K. B., \& Nyberg, L. (2023). No moderating influence of education on the association between changes in hippocampus volume and memory performance in aging. \emph{Aging Brain, 4}. %\href{https://doi.org/10.0000/3mp7y-537}{https://doi.org/10.0000/3mp7y-537}
 
-[1] Pagin, A. (2019). Exploring the conjunction fallacy in probability judgment: Conversational implicature or nested sets?. \emph{Journal of European Psychology Students, 10}(2). \\
+[1] \textbf{Pagin, A.} (2019). Exploring the conjunction fallacy in probability judgment: Conversational implicature or nested sets?. \emph{Journal of European Psychology Students, 10}(2). \\
 \end{hangparas}
 
 % Grants and fellowships
-\textsc{\Large grants and fellowships}\\
+%\textsc{\Large grants and fellowships}\\
+{\large Grants and fellowships} \\
 \vspace{-.3cm}\RR 
 
 \textbf{Grants obtained in competition (as principal applicant)}
@@ -150,7 +159,8 @@ M.Sc. Social science (psychology track), Uppsala University. \\
 %\end{minipage}
 
 % Teaching experience
-\textsc{\Large teaching experience}  \\
+%\textsc{\Large teaching experience}  \\
+{\large Teaching experience} \\
 \vspace{-.3cm}\RR 
 
 %\textbf{At the University of Gothenburg} \\
@@ -177,7 +187,8 @@ Terms taught: Spring 2017, Fall 2017, Spring 2018. \\
 
 
 % Academic supervision
-\textsc{\Large academic supervision}  \\
+%\textsc{\Large academic supervision}  \\
+{\large Academic supervision} \\
 \vspace{-.3cm}\RR 
 
 \begin{minipage}[t]{0.075\linewidth}
@@ -188,7 +199,8 @@ Co-advisor, Bachelor's thesis in Psychology, Clara Rosenthal. Department of Psyc
 \end{minipage}
 
 % University service
-\textsc{\Large departmental/university service} \\
+%\textsc{\Large departmental/university service} \\
+{\large Departmental/university service} \\
 \vspace{-.3cm}\RR 
 \textbf{}
 
@@ -212,9 +224,17 @@ Organizer of the Lifespan Development Lab weekly seminar series. Department of P
 %R, LaTeX, SPSS \\
 
 % Languages
-\textsc{\Large languages}\\
+%\textsc{\Large languages}\\
+{\large Languages} \\
 \vspace{-.3cm}\RR 
 
 Swedish (native), English (fluent)
+ \vspace{\baselineskip}
+
+
+{\large References} \\
+\vspace{-.3cm}\RR 
+
+Upon request.
 
 \end{document}  
